@@ -4,7 +4,7 @@
 [![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)](https://laravel.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Backend em Laravel utilizado para testes e consumo por aplicações front-end, como o projeto React [consumo-api-react](https://github.com/LucasGabriel408/consumo-api-react).
+API REST em Laravel para gerenciamento de tarefas, desenvolvida como backend do projeto [consumo-api-react](https://github.com/LucasGabriel408/consumo-api-react).
 
 ## Objetivo da API
 - Disponibilizar rotas simples para estudo de consumo de API
@@ -19,7 +19,7 @@ Backend em Laravel utilizado para testes e consumo por aplicações front-end, c
 ## Endpoints disponíveis
 - `GET /somar/{a}/{b}`: retorna a soma de dois valores
 - `GET /info`: retorna um JSON de exemplo com dados fixos
-- `GET /tasks`: retorna tarefas com paginação (`id > 2`, 5 itens por página)
+- `GET /tasks`: retorna tarefas com paginação
 
 ## Pré-requisitos
 - PHP 8.2+
